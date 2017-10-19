@@ -12,3 +12,6 @@
 - (How) do indexes permit fast retrieval?
 - Optimized for plain text/ for JSON / flexible?
 - How are indexes stored?
+
+## See also
+- PyLucene https://lucene.apache.org/pylucene/ What is the server built on? Python 2/3?
