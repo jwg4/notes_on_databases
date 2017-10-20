@@ -8,3 +8,6 @@
 - File formats?
 - Managing concurrency?
 - Responsiveness of servers, limited RAM per client.
+- Which things can be realistically sharded?
+- How can things be mirrored quickly and reliably?
+- Structured/probabilistic types such as stream counters
