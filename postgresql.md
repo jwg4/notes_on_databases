@@ -5,3 +5,16 @@
 - BRIN indexes can work with ordered data, record min max element of each disk block
 
 ## Timestamp type?
+- 64 bit integer with microseconds
+
+## JSONB
+### does not preserve
+- Whitespace
+- Repeated keys
+- Order of keys
+
+### Structure on disk
+- Struct can have pointer to both string and binary format
+- Parse tree in binary format?
+- Not mutable
+
