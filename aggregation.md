@@ -1,0 +1,7 @@
+- COUNT
+- LAST (most recent value wins)
+- list of all values
+- time-series of all values
+- set of all unique values
+- count of unique values
+- probabilistic count of unique values
