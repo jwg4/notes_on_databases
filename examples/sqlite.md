@@ -10,3 +10,6 @@ SQLite does not have a storage class set aside for storing dates and/or times. I
 
 Applications can chose to store dates and times in any of these formats and freely convert between formats using the built-in date and time functions.
 ```
+
+## Atomicity
+This explains how atomic commits are done in SQLite. It's probably a pretty good reference to what should happen in any write-to-disc process for an ACID database.
