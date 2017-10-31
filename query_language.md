@@ -1,0 +1,4 @@
+- channels (tree)
+- timestamps (>, >=, etc.)
+- aggregation
+- JSON document selection and transform
