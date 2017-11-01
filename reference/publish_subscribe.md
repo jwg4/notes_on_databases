@@ -1,4 +1,4 @@
 - Redis format
-- RabbitMQ format
+- AMQP (RabbitMQ format)
 - RethinkDB format
 - Websockets
