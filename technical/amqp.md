@@ -1,0 +1,3 @@
+- RabbitMQ uses version 0.9.1
+- Some Apache projects use version 1.0
+- Python implementation at https://pypi.python.org/pypi/amqp/2.2.2
