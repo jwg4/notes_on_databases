@@ -2,7 +2,7 @@
 
 ## Indexes
 - B-tree indexes are designed for >, ==, >=, etc.
-- BRIN indexes can work with ordered data, record min max element of each disk block
+- BRIN indexes can work with ordered data, record min max element of each disk block. Details about how they work?
 
 ## Timestamp type?
 - 64 bit integer with microseconds
