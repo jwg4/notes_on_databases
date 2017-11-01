@@ -9,3 +9,5 @@
 9. C might also republish D's ALL stream (or a substream) with a configured prefix.
 10. This means that C's ids aren't the same as A's, and C's hashes aren't the same as A's.
 
+ALL/ALL replication probably works like this: we receive the event with id, timestamp, hash and content. Id and hash are also calculated locally and have to match, otherwise the event is rejected. Timestamp is taken from the source.
+
