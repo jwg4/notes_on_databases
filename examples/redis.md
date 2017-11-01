@@ -44,3 +44,6 @@
 
 ## Threading
 Redis is single-threaded. How do waits for IO work? Pre-emption seems like it would break the Redis data model, or perhaps it's not the case because data processing always takes place without blocking.
+
+## Saving to disk
+BGSAVE is a command which forks the process. The new process writes everything in its memory to disk. SAVE pauses everything while it write to disk.
