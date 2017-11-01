@@ -17,3 +17,4 @@
 - SQLite how is memory Fred when things are written to disc? How does it deal with limited memory?
 - can rabbitmq queues be daisy chained?
 - can redid only deal with data that fits in memory? It's it ok with pages being swapped out?
+- how do databases fail when they run out of RAM or disk space?
