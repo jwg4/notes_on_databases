@@ -41,3 +41,6 @@
  * pointers being only at "level 1". This allows to traverse the list
  * from tail to head, useful for ZREVRANGE. */
 ```
+
+## Threading
+Redis is single-threaded. How do waits for IO work? Pre-emption seems like it would break the Redis data model, or perhaps it's not the case because data processing always takes place without blocking.
