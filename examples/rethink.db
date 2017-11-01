@@ -1,5 +1,13 @@
 # RethinkDB
 
+## Basics
 - Fast
-- Sharded
+- Sharded (eventually consistent)
 - Document store (JSON)
+- Has atomicity (over a single key)
+- Not ACID: cannot write to multiple keys in one transaction
+- Can subscribe to changes!
+
+## Questions
+- What wire protocol for pub-sub?
+- RethinkQL? Is this a query language which makes sense?
