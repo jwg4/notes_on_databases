@@ -47,3 +47,9 @@ Redis is single-threaded. How do waits for IO work? Pre-emption seems like it wo
 
 ## Saving to disk
 BGSAVE is a command which forks the process. The new process writes everything in its memory to disk. SAVE pauses everything while it write to disk.
+
+## Set operations
+Redis does, apparently "lightning-fast set operations", eg UNION, INTER..
+
+## Replication
+The replication model is based on this - all commands must produce exactly the same effect if replayed on a slave machine. This means that some behavior involving keys which will expire is just excluded. You can retrieve data involving keys which have expiries set, but you can't set other keys using keys with expiry set. 
