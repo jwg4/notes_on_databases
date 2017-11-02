@@ -53,3 +53,6 @@ Redis does, apparently "lightning-fast set operations", eg UNION, INTER..
 
 ## Replication
 The replication model is based on this - all commands must produce exactly the same effect if replayed on a slave machine. This means that some behavior involving keys which will expire is just excluded. You can retrieve data involving keys which have expiries set, but you can't set other keys using keys with expiry set. 
+
+## Blocking reads
+"BLPOP and BRPOP are the blocking equivalents of the LPOP and RPOP commands. If the queue for any of the keys they specify has an item in it, that item will be popped and returned. If it doesn't, the Redis client will block until a key becomes available (or the timeout expires - specify 0 for an unlimited timeout)."
