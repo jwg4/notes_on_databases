@@ -5,7 +5,7 @@
 - How can a write to keystore/pubsub complete as quickly as possible?
 - How does confirmation of write/transaction affect performance?
 - How are timestamps stored, if at all?
-- How are sorted sets stored?
+- How are sorted sets stored/indexed?
 - Multi-channel pubsub, or filtering quickly from sets or sorted sets?
 - Fast slicing from sorted sets
 - Preserving order when filtering
