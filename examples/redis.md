@@ -50,6 +50,10 @@ BGSAVE is a command which forks the process. The new process writes everything i
 
 Redis also, separately, 'swaps' rarely-accessed values from RAM onto disk. These get swapped back in when they are requested. This is done separately from the OS-level swapping. It always keeps the keys in RAM.
 
+```
+When Redis fork()s in order to save the dataset on disk (Redis uses copy-on-write semantic in order to take the snapshot of the DB) VM is suspended: only loads are allowed, writes are blocked. So the child can access the VM file without troubles. The same happens when the Append Only File is enabled and you issue a BGREWRITEAOF command.
+```
+
 ## Set operations
 Redis does, apparently "lightning-fast set operations", eg UNION, INTER..
 
