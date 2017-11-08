@@ -1,2 +1,3 @@
 - https://github.com/gleicon/restmq
 - https://github.com/resque/resque
+- https://github.com/influxdata/influxdb
