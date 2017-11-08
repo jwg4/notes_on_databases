@@ -12,4 +12,9 @@ Applications can chose to store dates and times in any of these formats and free
 ```
 
 ## Atomicity
-This explains how atomic commits are done in SQLite. It's probably a pretty good reference to what should happen in any write-to-disc process for an ACID database.
+This explains how atomic commits are done in SQLite. It's probably a pretty good reference to what should happen in any write-to-disc process for an ACID database. https://sqlite.org/atomiccommit.html
+
+## Write-ahead log
+A new mode of committing for SQLite. It writes blocks which are to be committed to an append-only log, and finally writes something which confirms that they are valid. Each read process checks the WAL before looking at the main database file. An index is maintained in RAM to find pages in the WAL quicker.
+
+This might be a good reference implementation of append-only data with an index to the latest version of each thing.
