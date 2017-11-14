@@ -20,4 +20,4 @@ A new mode of committing for SQLite. It writes blocks which are to be committed 
 This might be a good reference implementation of append-only data with an index to the latest version of each thing.
 
 ## Storing strings
-Rows are stored as a sequence of header/value, header/value pairs. The header specifies the type of the value. In the case of strings/BLOBs, the header also gives the string length. 
+Rows are stored as a sequence of headers followed by a corresponding sequence of values. The header specifies the type of the value. In the case of strings/BLOBs, the header also gives the string length. 
