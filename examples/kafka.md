@@ -5,7 +5,7 @@
 
 ## What it does
 - Publish/subscribe (by topic)
-- Storage of events
+- Storage of events. With a default cutoff in time (or storage space?)
 - Basic querying of events. All queries are infinite.
 - Stream processing. This is really good and doesn't have any counterpart.
 
