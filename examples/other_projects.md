@@ -4,3 +4,4 @@
 - LevelDB
 - https://en.wikipedia.org/wiki/Btrfs
 - https://fauna.com/blog/consistent-transactions-in-a-globally-distributed-database
+- https://github.com/timescale/timescaledb
