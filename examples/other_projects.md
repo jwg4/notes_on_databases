@@ -5,3 +5,5 @@
 - https://en.wikipedia.org/wiki/Btrfs
 - https://fauna.com/blog/consistent-transactions-in-a-globally-distributed-database
 - https://github.com/timescale/timescaledb
+- https://github.com/CorfuDB/CorfuDB/blob/master/README.md
+- https://github.com/nats-io/gnatsd
