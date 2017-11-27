@@ -19,3 +19,5 @@
 - Parse tree in binary format?
 - Not mutable
 
+## Source
+- ADT: Abstract Data Type
