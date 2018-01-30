@@ -1,0 +1,3 @@
+- listen on several sockets?
+- HTTP server?
+- keep sockets open for pub/sub
